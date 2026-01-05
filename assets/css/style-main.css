@@ -77,12 +77,12 @@ This file contains the common styles of this theme.
 	* Footer
 * ===============================================
 */
-@import "fontawesome.css";
-@import "pe-icon-7-stroke.css";
+@import "../css/fontawesome.css";
+@import "../css/pe-icon-7-stroke.css";
 /* @import "../css/elegant-icons.css"; */
 /* @import "../css/stroke-gap-icons.css"; */
-@import "utility-classes.css";
-@import "flaticon.css";
+@import "../css/utility-classes.css";
+@import "../css/flaticon.css";
 @font-face {
   font-family: 'Droid Serif';
   font-style: italic;
@@ -6288,7 +6288,7 @@ blockquote p {
   height: 14px;
   position: absolute;
   left: 30px;
-  background: url('https://html.kodesolution.com/2018/martialarts-html/demo/images/testimonials/quote_arrow.png') 0px 0px no-repeat;
+  background: url('../images/testimonials/quote_arrow.png') 0px 0px no-repeat;
   top: 97%;
 }
 .owl-carousel .owl-item .testimonial img {
